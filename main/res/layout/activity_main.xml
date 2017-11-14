@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.project.surajhuljute.menucounter.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+ android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Bill Count"
+        android:textSize="25dp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+       android:layout_marginLeft="25dp"
+       android:layout_width="150dp"
+       android:layout_height="55dp"
+        android:text="Items"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="80dp"
+       android:layout_height="35dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Rates"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Quantity"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_marginLeft="25dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="@string/item1"
+            android:id="@+id/chk1"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:text="@string/r1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edchk1"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/chk2"
+            android:layout_marginLeft="25dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="@string/item2"/>
+        <TextView
+            android:gravity="left"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="@string/r3"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edchk2"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/chk3"
+            android:layout_marginLeft="25dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="@string/item3"/>
+        <TextView
+            android:gravity="left"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="@string/r3"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edchk3"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/chk4"
+            android:layout_marginLeft="25dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="@string/item4"/>
+        <TextView
+            android:gravity="left"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="@string/r4"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edchk4"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/chk5"
+            android:layout_marginLeft="25dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="@string/item5"/>
+        <TextView
+            android:gravity="left"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:text="@string/r5"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edchk5"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="YOUR BILL"
+    android:layout_gravity="center"
+    android:gravity="center"
+
+    android:onClick="billCount"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total:"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:text=""
+            android:id="@+id/txtbill"
+        />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

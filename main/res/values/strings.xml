@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MenuCounter</string>
+    <string name="item1">PavBhaji</string>
+    <string name="item2">Pizza</string>
+    <string name="item3">Sandwich</string>
+    <string name="item4">Burger</string>
+    <string name="item5">Nudles</string>
+    <string name="r1">250</string>
+    <string name="r2">100</string>
+    <string name="r3">150</string>
+    <string name="r4">75</string>
+    <string name="r5">80</string>
+
+</resources>
